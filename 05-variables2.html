@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  </body>
+    <title>Variables 2/</title>
+    <p>
+      <button onclick="
+        Coffee+=5;
+        console.log(`coffee $ ${Coffee}`);
+        ">
+        Coffee 
+      </button>
+      <button onclick="
+      Bagel+=3;
+      console.log(`Bagel $ ${Bagel}`);
+      ">
+        bagel
+      </button>
+      <button onclick="
+      Soup+=9;
+      console.log(`Soup $ ${Soup}`);
+      ">
+        Soup
+      </button>
+      <button onclick="
+      Bill=0;
+      Soup=0;
+      Coffee=0;
+      Bagel=0;
+      console.log(`You have no Orders! $ ${Bill}`);
+      ">
+        reset
+      </button>
+      <button onclick="
+      console.log(`Total cost $ ${Bill=(Coffee+Soup+Bagel)}`);
+      Tax=Bill*0.1
+      console.log(`Adding tax $ ${Bill+=Tax}`);
+
+
+      ">
+        Total Cost
+      </button>
+    </p>
+
+    <script>
+      let variable = 'Please state your order!';
+      console.log(`Welcome: ${variable}`);
+    
+      let Coffee =0;
+       Bagel =0;
+        Soup =0; 
+        Bill = 0;
+        Tax=Bill*0.1
+      
+
+    </script>
+  
+  </body> 
+</html>

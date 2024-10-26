@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title> DOM 2</title>
+
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    title {
+      font: ariel;
+      color: aliceblue;
+      background-color: azure;
+    }
+
+    .Rock-button {
+      background-color: orange;
+      color: rgb(0, 0, 0);
+      border: none;
+      height: 200px;
+      width: 200px;
+      border-radius: 10px;
+      cursor: pointer;
+      background-image: url(https://supersimple.dev/projects/rock-paper-scissors/images/rock-emoji.png);
+      background-repeat: no-repeat;
+
+    }
+
+    .Paper-button {
+      background-color: orange;
+      color: rgb(0, 0, 0);
+      border: none;
+      height: 200px;
+      width: 200px;
+      border-radius: 10px;
+      cursor: pointer;
+      background-image: url(https://supersimple.dev/projects/rock-paper-scissors/images/paper-emoji.png);
+      background-repeat: no-repeat;
+    }
+
+    .Scissor-button {
+      background-color: orange;
+      color: rgb(0, 0, 0);
+      border: none;
+      height: 200px;
+      width: 200px;
+      border-radius: 10px;
+      cursor: pointer;
+      background-image: url(https://supersimple.dev/projects/rock-paper-scissors/images/scissors-emoji.png);
+      background-repeat: no-repeat;
+    }
+  </style>
+</head>
+
+<body>
+  <p>
+  <h1>
+    DOM
+  </h1>
+
+  Youtube
+  </p>
+  
+  <button onclick= "
+  subscribe();
+  "  
+  class='Js-button'
+  >Subscribe</button>
+
+
+
+  <Script>
+    function subscribe() {
+      const buttonElement = document.querySelector('.Js-button')
+  
+  if (buttonElement.innerText === 'Subscribe') {
+    buttonElement.innerHTML = 'Subscribed';
+  } else {
+    buttonElement.innerHTML === 'Subscribe'
+  }
+    }
+  
+  </Script>
+</body>
+
+</html>

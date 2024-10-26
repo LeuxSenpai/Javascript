@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <Title>www.niggahublob.po</Title>
+  </head>
+  <body>
+    <p>Cart Quantity</p>
+    <p>
+      <button onclick=
+      "console.log(`CartQuantity: ${CartQuantity}`)">
+        Show Quantity
+      </button>
+
+      <button onclick=
+      "CartQuantity+=1
+      console.log(`CartQuantity: ${CartQuantity}`)">
+        Add to Cart
+      </button>
+
+      <button onclick=
+      "CartQuantity+=2
+      console.log(`CartQuantity: ${CartQuantity}`)">
+        +2
+      </button>
+      <button onclick=
+      "CartQuantity+=3
+      console.log(`CartQuantity: ${CartQuantity}`)">
+        +3
+      </button>
+      <button onclick=
+      "CartQuantity-=CartQuantity
+      console.log('Cart was reset');
+      console.log(`Cart Quantity: ${CartQuantity}`)">
+        Reset
+      </button>
+    </p> 
+    
+
+      <script>
+        let CartQuantity = 0;
+      </script>
+
+  </body>
+</html>
